@@ -1,0 +1,28 @@
+{
+  "name": "rate-limiting-take-home",
+  "version": "1.0.0",
+  "description": "Coding challenge for Streak",
+  "main": "babel.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.0.0",
+    "jest": "^24.0.0",
+    "lolex": "^3.0.0",
+    "regenerator-runtime": "^0.13.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StreakYC/rate-limiting-take-home.git"
+  },
+  "author": "Streak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StreakYC/rate-limiting-take-home/issues"
+  },
+  "homepage": "https://github.com/StreakYC/rate-limiting-take-home#readme"
+}
