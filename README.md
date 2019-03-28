@@ -64,7 +64,7 @@ You need to have the latest versions of babel (https://babeljs.io/), npm (https:
 2. run ```npm i``` to install dependencies
 3. implement the function bodies and test with ```npm test```
 4. commit your changes and push to github as your own repo (don't fork because that will show up on THIS repo under the "forks" list)
-5. email us with a link to your repo and some information on how long it took to complete the exercise
+5. Share your repo with **hwfwalton** and some information on how long it took to complete the exercise
 
 # Tips
 
