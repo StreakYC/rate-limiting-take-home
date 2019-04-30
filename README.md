@@ -4,7 +4,7 @@ We do a lot of functional-style asynchronous Javascript programming here at Stre
 
 The way the challenge is structured is to implement various utility functions that are already defined. These utility functions range from very easy to very difficult. The scaffolding + tests are already setup so your only responsibility is to implement the function bodies.
 
-It is NOT actually necessary to complete all the challenge parts. Completing a harder function will count as also completing all the preceding easier functions. So if you want to implement only ```multiRateLimitWithPromises``` and you do it successfully that counts as completing all the questions.
+It is NOT actually necessary to complete all the challenge parts. Completing a harder function will count as also completing all the preceding easier functions. So if you want to implement only ```multiRateLimitWithPromises``` and you do it successfully that counts as completing all the questions. However, if you have any trouble we do still recommend completing all the challenge parts in order as the solutions build upon each other.
 
 If any of the definitions are unclear as to behavior of the uility function then look at the unit tests to see how the utiitity function should be used and the precise behavior expected.
 
