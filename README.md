@@ -4,6 +4,8 @@ We do a lot of functional-style asynchronous Javascript programming here at Stre
 
 The way the challenge is structured is to implement various utility functions that are already defined. These utility functions range from very easy to very difficult. The scaffolding + tests are already setup so your only responsibility is to implement the function bodies.
 
+It is NOT actually necessary to complete all the challenge parts. Completing a harder function will count as also completing all the preceding easier functions. So if you want to implement only ```multiRateLimitWithPromises``` and you do it successfully that counts as completing all the questions.
+
 If any of the definitions are unclear as to behavior of the uility function then look at the unit tests to see how the utiitity function should be used and the precise behavior expected.
 
 Don't spend too much time on this. *Really* experienced people who have seen these problems before may be able to finish the entire challenge in under an hour, but most people take ~1.5-4 hours. If you're spending more than 4 hours, you should submit your solution complete or otherwise.
@@ -73,7 +75,6 @@ You need to have the latest versions of babel (https://babeljs.io/), npm (https:
 
 * there's a large jump in complexity and difficulty from ```throttle``` to ```rateLimit```
 * ```multiRateLimitWithPromises``` is also a lot more difficult than regular ```multiRateLimit```
-* you don't have to implement all the functions if you don't want to, completing a harder function will count as also completing all the easier functions. So if you want to implement only ```multiRateLimitWithPromises``` and you do it successfully that counts as completing all the questions.
 * testing uses jest (https://jestjs.io/) under the hood, so while developing if you just want to run one function you can do ```npm test delay``` or ```npm test multiRateLimit``` and it will only run that test file
 * there's a VS Code launch.json file included that should be properly configured so you should be able to use VS Code's built in debugger
 * if you use VS Code's built in debugger and want to debug just one test, then start the debugger while the X.test.js file is active and choose ```jest current file``` config.
