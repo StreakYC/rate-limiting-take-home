@@ -6,6 +6,9 @@ The way the challenge is structured is to implement various utility functions th
 
 If any of the definitions are unclear as to behavior of the uility function then look at the unit tests to see how the utiitity function should be used and the precise behavior expected.
 
+Don't spend too much time on this. *Really* experienced people who have seen these problems before may be able to finish the entire challenge in under an hour, but most people take ~1.5-4 hours. If you're spending more than 4 hours, you should submit your solution complete or otherwise.
+
+
 ## Functions to be Implemented (easiest first, hardest at the bottom)
 
 ## delay(fn, time)
@@ -74,5 +77,4 @@ You need to have the latest versions of babel (https://babeljs.io/), npm (https:
 * testing uses jest (https://jestjs.io/) under the hood, so while developing if you just want to run one function you can do ```npm test delay``` or ```npm test multiRateLimit``` and it will only run that test file
 * there's a VS Code launch.json file included that should be properly configured so you should be able to use VS Code's built in debugger
 * if you use VS Code's built in debugger and want to debug just one test, then start the debugger while the X.test.js file is active and choose ```jest current file``` config.
-* don't spend a ton of time on this. *Really* experienced people who have seen these problems before may be able to finish the entire challenge in under 30 minutes. If you're spending 3+ hours completing this challenge that's probably an indication you're not a good fit for what we're looking for right now
 * the unit tests are quote thorough and cover some tricky cases, if you're confused about some behavior look at what the unit tests are expecting
